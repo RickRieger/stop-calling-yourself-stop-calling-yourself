@@ -11,7 +11,7 @@ return arbitraryString + '???';
 
 //* task 2
 function whiteSpace(word, wordUp){
-    return word + ' ' + wordUp;
+    return word + ' ' + wordUp;
 }
 
     answer = whiteSpace('WhatIfWeAllStartedCommunicatingWithCamelSpace?','look Mom, space.');
