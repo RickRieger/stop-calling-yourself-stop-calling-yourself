@@ -1,0 +1,15 @@
+{
+  "name": "stop-calling-yourself-stop-calling-yourself",
+  "version": "1.0.0",
+  "description": "Code Immersives JavaScript exercise: write functions and call them yourself to check the results",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "jest --watchAll",
+    "test:ci": "jest --ci"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "29.7.0"
+  }
+}
