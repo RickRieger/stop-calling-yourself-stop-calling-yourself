@@ -1,7 +1,7 @@
 
 //* task 1
 function whatTheHeck(arbitraryString){
-return arbitraryString + '!!!';
+return arbitraryString + '???';
 }
 
     let answer = whatTheHeck('Are you serious');
