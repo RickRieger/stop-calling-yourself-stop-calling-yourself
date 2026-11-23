@@ -1,20 +1,20 @@
 
 //* task 1
-function whatTheHeck(arbitraryString){
+function addThreeQuestionMarks(arbitraryString){
 return arbitraryString + '???';
 }
 
-    let answer = whatTheHeck('Are you serious');
+    let answer = addThreeQuestionMarks('Are you serious');
     answer;
 
 
 
 //* task 2
-function whiteSpace(word, wordUp){
-    return word + ' ' + wordUp;
+function joinWithSpace(first, second){
+    return first + ' ' + second;
 }
 
-    answer = whiteSpace('WhatIfWeAllStartedCommunicatingWithCamelSpace?','look Mom, space.');
+    answer = joinWithSpace('WhatIfWeAllStartedCommunicatingWithCamelSpace?','look Mom, space.');
     answer;
 
 
@@ -32,21 +32,21 @@ function subtractThreeNums(a,b,c){
 
 
 //* task 4
-function subThreeNumsReverse(a,b,c){
+function subtractThreeNumsReverse(a,b,c){
     return c - b - a;
 }
 
-    answer = subThreeNumsReverse(10,1,2);
+    answer = subtractThreeNumsReverse(10,1,2);
     answer;
-    answer = subThreeNumsReverse(2,1,10);
+    answer = subtractThreeNumsReverse(2,1,10);
     answer;
 
 //*task 5
-function tripleAstring(string){
+function tripleString(string){
     return string+string+string;
 }
 
-    answer = tripleAstring('isThisGoodEnough?');
+    answer = tripleString('isThisGoodEnough?');
     answer;
 
 //task 6
